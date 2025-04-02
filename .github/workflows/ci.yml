@@ -9,21 +9,21 @@ permissions:
 
 jobs:
   build-env:
-    name: Build Conda Environment
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Checkout repository
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v3
+        with:
+          python-version: "3.12"
       - name: Set up Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: lenapy_env
-          environment-file: conda-lock.yml
+          environment-file: environment.yml
           auto-activate-base: false
 
       - name: Install dependencies
         shell: bash -l {0}
         run: |
-          conda install conda-lock
           pip install -e .[test]
