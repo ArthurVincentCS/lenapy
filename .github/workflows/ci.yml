@@ -1,13 +1,11 @@
 name: CI Pipeline
 
 on:
-  push:
-    branches:
-      - main
-      - develop
   pull_request:
     branches:
-      - '**'
+      - "main"
+permissions:
+  contents: read
 
 jobs:
   build-env:
