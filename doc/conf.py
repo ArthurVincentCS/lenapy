@@ -32,7 +32,6 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
     "sphinx.ext.autosummary",
-    "sphinx_autodoc_typehints",
     "sphinx.ext.intersphinx",
     "sphinx.ext.napoleon",
     "sphinx_mdinclude",
@@ -47,6 +46,7 @@ autodoc_inherit_docstrings = True
 autoclass_content = "both"
 # sort class members by their order in the source
 autodoc_member_order = "bysource"
+autodoc_typehints = "both"
 
 # show all members of a class in the Methods and Attributes sections automatically
 numpydoc_show_class_members = True
