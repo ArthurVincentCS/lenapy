@@ -20,11 +20,13 @@ Reading interfaces are implemented, enabling netcdf files to be opened with a co
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
-   
-   changelog
+   :hidden:
+
    gettingStarted
-   lenapy API Reference <api/index>
+   Changelog <changelog>
    tutorials
+   lenapy API Reference <api/index>
+
 
 
 
