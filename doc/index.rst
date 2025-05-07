@@ -27,13 +27,3 @@ Reading interfaces are implemented, enabling netcdf files to be opened with a co
    tutorials
    lenapy API Reference <api/index>
    How to contribute <contributing>
-
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
