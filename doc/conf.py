@@ -46,6 +46,7 @@ autodoc_inherit_docstrings = True
 autoclass_content = "both"
 # sort class members by their order in the source
 autodoc_member_order = "bysource"
+autodoc_typehints = "both"
 
 # show all members of a class in the Methods and Attributes sections automatically
 numpydoc_show_class_members = True
@@ -94,3 +95,4 @@ intersphinx_mapping = {
 # See also:
 # https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#confval-intersphinx_disabled_reftypes
 intersphinx_disabled_reftypes = ["*"]
+templates_path = [".templates"]
