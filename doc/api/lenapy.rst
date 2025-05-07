@@ -1,6 +1,3 @@
-lenapy package
-==============
-
 Submodules
 ----------
 
