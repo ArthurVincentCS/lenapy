@@ -23,7 +23,7 @@ Reading interfaces are implemented, enabling netcdf files to be opened with a co
    
    changelog
    gettingStarted
-   api
+   lenapy API Reference <api/index>
    tutorials
 
 

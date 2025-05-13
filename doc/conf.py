@@ -32,6 +32,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
     "sphinx.ext.autosummary",
+    "sphinx_autodoc_typehints",
     "sphinx.ext.intersphinx",
     "sphinx.ext.napoleon",
     "sphinx_mdinclude",
@@ -94,3 +95,4 @@ intersphinx_mapping = {
 # See also:
 # https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#confval-intersphinx_disabled_reftypes
 intersphinx_disabled_reftypes = ["*"]
+templates_path = [".templates"]
